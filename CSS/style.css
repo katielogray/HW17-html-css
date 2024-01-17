@@ -1,0 +1,135 @@
+
+.nav {
+  background-color: rgb(252, 243, 166);
+  list-style-type: none;
+  float: center; 
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav li {
+  display: inline-block;
+  text-align: right; 
+  font-size: 18px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  }
+
+.navmarg {
+  margin-right: 150px;
+}
+
+.logo {
+  float: center; 
+  margin-left: 150px;
+  text-align: center;
+  padding: 9px 0px;
+}
+
+h1 {
+  color:#4d8d47;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.button {
+  border: none;
+  color: rgb(37, 47, 54);
+  background-color: #9eddf1;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+.content {
+  text-align: center;
+  padding: 60px;
+  
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(252, 243, 166);
+}
+
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #6bac65;
+}
+
+.active {
+  background-color: #e49f38;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 240, 106);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  
+  }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sides {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.footer {
+margin-right: 150px;
+  margin-left: 150px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}  
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+    
+.img { 
+    position:relative;
+    width: 100%;}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
